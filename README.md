@@ -5,7 +5,7 @@
 git clone https://github.com/pangpangxiong520/TITA_DEMO.git
 cd TITA_DEMO/TITA_interface
 colcon build
-setup install/setup.bash
+source install/setup.bash
 ```
 ## B.How to use TITA_C++_demo
 ## C.How to use Python_demo
