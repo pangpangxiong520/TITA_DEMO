@@ -1,0 +1,10 @@
+uint8 DIE = 0x00
+uint8 INIT = 0x01
+uint8 TRANSFORM_UP =0x02
+uint8 STAND = 0x03
+uint8 TRANSFORM_DOWN = 0x04
+uint8 CRASH = 0x05
+uint8 SUSPENDING = 0x06
+uint8 JUMP = 0x07
+uint8 UNINITIALIZED = 0x08
+uint8 status

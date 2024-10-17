@@ -1,0 +1,41 @@
+# Goal definition
+
+# Audio file format
+uint8 AUDIO_WAV = 0  # WAV format
+uint8 AUDIO_MP3 = 1  # MP3 format
+uint8 AUDIO_FLAC = 2 # FLAC format
+uint8 fmt            # Audio file format to be played (WAV, MP3, FLAC)
+
+# Audio type definition
+uint8 AUDIO_NOTICE = 0   # Notification audio
+uint8 AUDIO_WARNING = 1  # Warning audio
+uint8 AUDIO_MUSIC = 2    # Music
+uint8 type               # Type of audio (NOTICE, WARNING, MUSIC)
+
+# Command to control audio playback
+uint8 PLAY = 0  # Command to play audio
+uint8 STOP = 1  # Command to stop audio
+uint8 cmd       # Audio command (PLAY, STOP)
+
+# URL to the audio file to be played
+string url
+
+# Volume of the audio file (0-100)
+uint8 vol
+
+---
+# Result definition
+
+# Boolean indicating whether the playback is finished
+bool is_finished
+
+---
+# Feedback definition
+
+# Progress of the current audio playback (0.0 - 1.0)
+float32 progress
+
+# Playback status
+uint8 WAITING = 0  # Audio is waiting to start
+uint8 PLAYING = 1  # Audio is currently playing
+uint8 status       # Playback status (WAITING, PLAYING)
