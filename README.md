@@ -9,4 +9,4 @@ source install/setup.bash
 ```
 ## B.How to use TITA_C++_demo
 ## C.How to use Python_demo
-For more infomation, contact with me at email zuyixiong64@gmail.com!
+For more infomation, contact with me in email zuyixiong64@gmail.com!
